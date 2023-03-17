@@ -10,7 +10,6 @@ import datetime
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-
     placement_list = []
     with open('placement.csv', 'r') as file:
         reader = csv.reader(file)
